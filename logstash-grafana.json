@@ -1314,7 +1314,7 @@
       ],
       "timeFrom": null,
       "timeShift": null,
-      "title": "- Heap Usage in %",
+      "title": "- JVM Heap Usage in %",
       "type": "timeseries"
     },
     {
