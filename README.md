@@ -1,13 +1,13 @@
 # logstash-grafana
 
-<img src="logstash-grafana.png" alt="Dashboard to view Logstashs internal statistics (based on X-Pack)">
+<img src="https://guize.com.br/logstash-grafana/logstash-grafana.png" alt="Dashboard to view Logstashs internal statistics (based on X-Pack)">
 
-<img src="logstash-grafana2.png" alt="Dashboard to view Logstashs internal statistics (based on X-Pack)">
+<img src="https://guize.com.br/logstash-grafana/logstash-grafana2.png" alt="Dashboard to view Logstashs internal statistics (based on X-Pack)">
 
-<img src="logstash-grafana3.png" alt="Dashboard to view Logstashs internal statistics (based on X-Pack)">
+<img src="https://guize.com.br/logstash-grafana/logstash-grafana3.png" alt="Dashboard to view Logstashs internal statistics (based on X-Pack)">
 
 <br>
-> Dashboard to view Logstashs internal statistics (based on X-Pack):
+<h2>Dashboard to view Logstashs internal statistics (based on X-Pack)</h2>
 
 * Queue events: Number of event queue (events in, filtered, out, event duration), etc
 * JVM statistics: Memory heap used, garbage collection, JVM uptime, JVM thread count, etc
@@ -24,40 +24,39 @@ Make sure you have met the following minimum requirements:
 
 ## 🚀 Grafana
 
-1. Install and configure Grafana 
+<b>1. Install and configure Grafana</b>
 
 * Download and Installation: https://grafana.com/grafana/download
 * Configuration: https://grafana.com/docs/grafana/v7.5/administration/configuration/
 
-2. Choose your datasource
+<b>2. Choose your datasource</b>
 * Datasources: https://grafana.com/docs/grafana/v7.5/datasources/
 
-3. Create Variable
+<b>3. Create Variable</b>
 * Instructions: https://grafana.com/docs/grafana/latest/variables/
 
 Variable: HOST
 Definition: tag_values(cpu_usage_system,host)
 
-4. Import your Dashboard using logstash-grafana code:
+<b>4. Import your Dashboard using logstash-grafana code</b>
 * Instructions: https://grafana.com/docs/grafana/latest/dashboards/export-import/
 
 ## 🚀 Telegraf
 
-1. Install and configure Telegraf
+<b>1. Install and configure Telegraf</b>
 
 * Download/Install e configuration: https://github.com/influxdata/telegraf
 
-2. Create configuration plugin file with "Logstash Input Plugin" content
+<b>2. Create configuration plugin file with "Logstash Input Plugin" content</b>
 
 * https://github.com/influxdata/telegraf/blob/master/plugins/inputs/logstash/README.md
 
-Linux based Red-hat / Centos
+<b>Linux based Red-hat / Centos</b>
 ```
 vi /etc/telegraf/telegraf.d/logstash.conf
-
 ```
 
-Configuration:
+<b>Configuration:</b>
 
 ```
 [[inputs.logstash]]
@@ -92,7 +91,7 @@ Configuration:
   #   "X-Special-Header" = "Special-Value"
 ```
 
-Restart telegraf
+<b>3. Restart telegraf</b>
 
 ```
 service telegraf restart
