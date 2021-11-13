@@ -1,6 +1,6 @@
 # logstash-grafana
 
-<img src="https://skingratiscsgo.com/logstash-grafana/logstash-grafana.png" alt="Dashboard to view Logstashs internal statistics (based on X-Pack)">
+<img src="https://skingratiscsgo.com/logstash-grafana/logstash-grafana-full.png" alt="Dashboard to view Logstashs internal statistics (based on X-Pack)">
 <h2>Dashboard to view Logstashs internal statistics (based on X-Pack)</h2>
 
 * Queue events: Number of event queue (events in, filtered, out, event duration), etc
