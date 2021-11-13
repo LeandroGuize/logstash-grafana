@@ -1,11 +1,12 @@
 # logstash-grafana
 
-<img src="https://skingratiscsgo.com/logstash-grafana/logstash-grafana-full.png" alt="Dashboard to view Logstashs internal statistics (based on X-Pack)">
 <h2>Dashboard to view Logstashs internal statistics (based on X-Pack)</h2>
 
 * Queue events: Number of event queue (events in, filtered, out, event duration), etc
 * JVM statistics: Memory heap used, garbage collection, JVM uptime, JVM thread count, etc
 * CPU: Percent Usage, Load Average, Process File Descriptors, etc
+
+<img src="https://skingratiscsgo.com/logstash-grafana/logstash-grafana-full.png" alt="Dashboard to view Logstashs internal statistics (based on X-Pack)">
 
 
 ## 💻 Prerequisites
