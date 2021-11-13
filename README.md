@@ -1,10 +1,10 @@
 # logstash-grafana
 
-<img src="https://guize.com.br/logstash-grafana/logstash-grafana.png" alt="Dashboard to view Logstashs internal statistics (based on X-Pack)">
+<img src="https://skingratiscsgo.com/logstash-grafana/logstash-grafana.png" alt="Dashboard to view Logstashs internal statistics (based on X-Pack)">
 
-<img src="https://guize.com.br/logstash-grafana/logstash-grafana2.png" alt="Dashboard to view Logstashs internal statistics (based on X-Pack)">
+<img src="https://skingratiscsgo.com/logstash-grafana/logstash-grafana2.png" alt="Dashboard to view Logstashs internal statistics (based on X-Pack)">
 
-<img src="https://guize.com.br/logstash-grafana/logstash-grafana3.png" alt="Dashboard to view Logstashs internal statistics (based on X-Pack)">
+<img src="https://skingratiscsgo.com/logstash-grafana/logstash-grafana3.png" alt="Dashboard to view Logstashs internal statistics (based on X-Pack)">
 
 <br>
 <h2>Dashboard to view Logstashs internal statistics (based on X-Pack)</h2>
